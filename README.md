@@ -12,7 +12,8 @@ Este laboratorio tiene la finalidad de mostrar de manera gráfica la representac
 
 
 # Adquisición
- 
+
+la adquisición se dio gracias a un sensor de electrocardiograma el cual a través de un Daq el cual a una tasa de muestreo de 500hz  
     import nidaqmx
     import numpy as np
     import matplotlib.pyplot as plt
