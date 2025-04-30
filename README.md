@@ -207,8 +207,8 @@
 
     if len(r_peaks_filtered) > 1:  # Asegurarnos de que haya más de un pico R
        rr_intervals = np.diff(r_peaks_filtered) / fs  # En segundos
-   else:
-      rr_intervals = []
+     else:
+       rr_intervals = []
 
 # Análisis de HRV (Media y Desviación Estándar)
 
@@ -222,14 +222,14 @@
 
 # Análisis Wavelet (CWT)
 
-   def wavelet_transform(signal, scales=np.linspace(1, 128, 256)):
-       coefficients, freqs = pywt.cwt(signal, scales, 'cmor1.0-1.0')
-       return coefficients, freqs
+     def wavelet_transform(signal, scales=np.linspace(1, 128, 256)):
+         coefficients, freqs = pywt.cwt(signal, scales, 'cmor1.0-1.0')
+         return coefficients, freqs
 
 # Verificar si tenemos intervalos R-R válidos para el espectrograma
 
-   if len(rr_intervals) > 0:
-      coefficients, freqs = wavelet_transform(rr_intervals)
+      if len(rr_intervals) > 0:
+        coefficients, freqs = wavelet_transform(rr_intervals)
 
     # Visualización del espectrograma
 
@@ -242,7 +242,7 @@
        plt.title('Espectrograma HRV usando la Transformada Wavelet')
        plt.grid(True, which='both', linestyle='--', alpha=0.3)
        plt.show()
-   else:
-       print("No se pudo realizar el análisis wavelet debido a la falta de intervalos R-R válidos.")
+     else:
+         print("No se pudo realizar el análisis wavelet debido a la falta de intervalos R-R válidos.")
 
 ![Image](https://github.com/user-attachments/assets/eba5ff20-0270-43e6-a5de-e9b565d597f0)
