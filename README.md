@@ -20,6 +20,10 @@ Este laboratorio tiene la finalidad de mostrar de manera gráfica la representac
 
 - Librerías: NumPy, SciPy, Matplotlib, pyserial
 
+## Marco teórico - Diagrama de flujo
+
+![image](https://github.com/user-attachments/assets/78ef2b4c-6b7e-4c03-beee-bcb86c2fbde9)
+
 # Adquisición
 
 La señal ECG fue registrada durante un experimento que incluyó una fase de reposo, una fase de apnea voluntaria (retención de la respiración) y una fase de recuperación. Se utilizó un sistema de adquisición basado en NI DAQ con una frecuencia de muestreo de 500 Hz, lo cual proporciona una resolución adecuada para detectar los picos R característicos del ECG. Los datos se recolectaron durante un total de 5 minutos, asegurando así la captura de suficientes ciclos cardíacos para realizar un análisis significativo del HRV.
