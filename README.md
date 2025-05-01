@@ -10,6 +10,15 @@
 
 Este laboratorio tiene la finalidad de mostrar de manera gráfica la representación de la activación del sistema simpático y parasimpático en un sujeto de 19 años sin ninguna patología cardiaca al que se le aplicó una prueba, la cual consistía en el aumento de pulso cardíaco debido a la respuesta simpática del cuerpo al sentirse en la sensación de peligro la cual fue inducida al aguantar la respiración hasta llegar a la sensación de ahogo que genera un instinto básico de supervivencia el cual sería conseguir oxígeno y lograr respirar, de esta manera entra en juego el sistema parasimpático al reconocer ninguna sensación de peligro y regular el ritmo cardíaco bajando su frecuencia
 
+### Materiales y métodos
+
+- DAQ (Dispositivo de Adquisición de Datos)
+
+- Sensor AD8232
+
+- Python 3.11
+
+- Librerías: NumPy, SciPy, Matplotlib, pyserial
 
 # Adquisición
 
